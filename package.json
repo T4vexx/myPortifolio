@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "description": "portifolio",
-  "author": "Otávio Augusto",
+  "author": "Otávio Augusto Teixeira",
   "keywords": [
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
@@ -16,10 +16,16 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.5.1",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "framer-motion": "^10.0.1",
     "gatsby": "^5.7.0",
+    "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-google-gtag": "^5.7.0",
     "gatsby-plugin-image": "^3.7.0",
     "gatsby-plugin-manifest": "^5.7.0",
+    "gatsby-plugin-react-helmet": "^6.7.0",
     "gatsby-plugin-sass": "^6.7.0",
     "gatsby-plugin-sharp": "^5.7.0",
     "gatsby-plugin-sitemap": "^6.7.0",
@@ -27,12 +33,18 @@
     "gatsby-transformer-sharp": "^5.7.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "sass": "^1.58.3"
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.7.1",
+    "react-scroll": "^1.8.9",
+    "swiper": "^9.1.0"
   },
   "devDependencies": {
     "@types/node": "^18.14.0",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
+    "@types/react-helmet": "^6.1.6",
+    "@types/react-scroll": "^1.8.6",
+    "sass": "^1.58.3",
     "typescript": "^4.9.5"
   }
 }

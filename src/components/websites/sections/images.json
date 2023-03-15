@@ -1,0 +1,88 @@
+{
+    "sites": {
+        "personalprojects": {
+            "next": [
+                { "png": "next1.png", "description": "Home page" },
+                { "png": "next2.png", "description": "Selected store" },
+                { "png": "next3.png", "description": "Descrição do site" },
+                { "png": "next4.png", "description": "Contatos" },
+                { "png": "next5.png", "description": "Coming soon page" }
+            ],
+            "burnstore": [
+                
+                { "png": "next6.png", "description": "Register forms" },
+                { "png": "next7.png", "description": "Login forms" },
+                { "png": "next8.png", "description": "Client dashboard" }
+            ],
+            "cacic": [
+                { "png": "cacic1.png", "description": "Home page" },
+                { "png": "cacic2.png", "description": "About Ca" },
+                { "png": "cacic3.png", "description": "Projects" },
+                { "png": "cacic4.png", "description": "Events" },
+                { "png": "cacic5.png", "description": "Team / footer" }
+            ]
+        },
+        "teamprojects": {
+            "semaped": [
+                { "png": "semaped1.png", "description": "Home page" },
+                { "png": "semaped2.png", "description": "Team" },
+                { "png": "semaped3.png", "description": "Timeline" }
+            ],
+            "semac": [
+                { "png": "semac1.png", "description": "Home page" },
+                { "png": "semac2.png", "description": "Description" }
+            ]
+        },
+        "rocketprojects": {
+            "ignews": [
+                { "png": "ignews1.png", "description": "Home page" },
+                { "png": "ignews2.png", "description": "News" },
+                { "png": "ignews3.png", "description": "Only members" },
+                { "png": "ignews4.png", "description": "Chekout page" },
+                { "png": "ignews5.png", "description": "Responsive site" }
+            ],
+            "dashgo": [
+                { "png": "dashgo1.png", "description": "Login page" },
+                { "png": "dashgo2.png", "description": "Dashboard" },
+                { "png": "dashgo3.png", "description": "Clients check" },
+                { "png": "dashgo4.png", "description": "Add client" }
+            ],
+            "worldtrip": [
+                { "png": "worldtrip1.png", "description": "Home page" },
+                { "png": "worldtrip2.png", "description": "Countries" },
+                { "png": "worldtrip3.png", "description": "Country page" }
+            ]
+        },
+        "burnshop": {
+            "concessionaria": [
+                { "png": "concessionaria1.png", "description": "Destaques" },
+                { "png": "concessionaria2.png", "description": "Veículos" },
+                { "png": "concessionaria3.png", "description": "Categorias" }
+            ],
+            "garagem": [
+                { "png": "garagem1.png", "description": "Home Page / Carro selecionado" },
+                { "png": "garagem2.png", "description": "Notificação" }
+            ],
+            "lojadep": [
+                { "png": "lojadep1.png", "description": "Home page / Categorias / Itens" },
+                { "png": "lojadep2.png", "description": "Carrinho" },
+                { "png": "lojadep3.png", "description": "Light mode" }
+            ]
+        },
+
+        "rgxstore": {
+            "tablet": [
+                { "png": "tablet1.png", "description": "Login page" },
+                { "png": "tablet2.png", "description": "Register page" },
+                { "png": "tablet3.png", "description": "Home page" },
+                { "png": "tablet4.png", "description": "Ocorrências - Deter veículos" },
+                { "png": "tablet5.png", "description": "Ocorrências - Multar" },
+                { "png": "tablet6.png", "description": "Ocorrências - Relatório" },
+                { "png": "tablet7.png", "description": "Consultas - Cidadãos online" },
+                { "png": "tablet8.png", "description": "Consultas - Código penal" },
+                { "png": "tablet9.png", "description": "Serviços - Enviar tarefa" },
+                { "png": "tablet10.png", "description": "Serviços - Afazeres" }
+            ]
+        }
+    }
+}
