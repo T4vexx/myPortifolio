@@ -38,7 +38,7 @@ const TeamProjects = ({color, title, description,ml,data,fontColor,tec}: TeamPro
 
     return (
         <GridItem >
-            <Flex ml={ml} w="43rem" h="32rem" bg={color} color={fontColor} justify="center" align="center" borderRadius="15px">
+            <Flex ml={["0",`${ml}`]} w={["100%","43rem"]} h={["25rem","32rem"]} bg={color} color={fontColor} justify="center" align="center" borderRadius="15px">
                 <VStack padding="0 1rem" gap="6" justify="center" align="center">
                     <Flex flexDir="column">
                         <Text fontSize="xl"><b>{title}</b></Text>
@@ -46,7 +46,7 @@ const TeamProjects = ({color, title, description,ml,data,fontColor,tec}: TeamPro
                         <Text fontSize="lg">Tecnologias: {tec}</Text>
                     </Flex>
                     
-                    <Flex w="40rem">
+                    <Flex w={["22rem","40rem"]}>
                         <Swiper
                             modules={[Navigation,Autoplay]}
                             navigation={true}

@@ -8,7 +8,7 @@ const BurnShop = () => {
     return (
         <section id="burnshop">
             <Text mt="10" fontSize="4xl" fontWeight="bold" >BurnShop projects: </Text>
-                <Grid gap='6' templateColumns='repeat(2, 1fr)' mt="10" h="72rem">
+                <Grid gap='6' templateColumns={["repeat(1, 1fr)",'repeat(2, 1fr)']} mt="10" h={["102rem","72rem"]}>
                     <Scripts
                         title="Concessionária"
                         description="Script de concessionária para fivem (GTAv - roleplay), nesse script eu desenvolvi uma concessionária completa com sistemas de vendas por categorias e vendas de carros usados, aluguel de veículos, test drive, e muitas outras funcionalidades, back(Lua) e front(js puro)"

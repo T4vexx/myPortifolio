@@ -7,8 +7,8 @@ const dataJson = require("./images.json")
 const TeamWorks = () => {
     return (
         <section id="teamprojects">
-            <Text mt="10" fontSize="4xl" fontWeight="bold" >Team projects: </Text>
-                <Flex mt="10" w="100%" h="33rem" align="start">
+            <Text mt="10" textAlign={["center","start"]} fontSize={["3xl","4xl"]}fontWeight="bold" >Team projects </Text>
+                <Flex flexDir={["column","row"]} justify={["space-between"]} mt="10" w="100%" h={["52rem","33rem"]} align="start">
                     <TeamProjects
                         title="SEMAPED"
                         description="Site Desenvolvido para a semana da pedagogia em parceria com a eccjr UNESP-sjrp"

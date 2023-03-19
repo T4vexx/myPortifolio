@@ -7,8 +7,8 @@ const dataJson = require("./images.json")
 const RocketseatWorks = () => {
     return (
         <section id="rocketprojects">
-            <Text mt="10" fontSize="4xl" fontWeight="bold" >Rocketseat projects: </Text>
-            <Grid gap='6' templateColumns='repeat(2, 1fr)' mt="10" h="67rem">
+            <Text mt="10" textAlign={["center","start"]} fontSize={["3xl","4xl"]} fontWeight="bold" >Rocketseat projects </Text>
+            <Grid gap='6' templateColumns={["repeat(1, 1fr)",'repeat(2, 1fr)']} mt="10" h={["80rem","67rem"]}>
                 <TeamProjects
                     title="IgNews"
                     description="Site Desenvolvido como projeto do curso de react da rocketseat, nesse site criamos um newsletter como sistema de login e de postagens"

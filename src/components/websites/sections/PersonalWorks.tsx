@@ -7,8 +7,8 @@ const dataJson = require("./images.json")
 const PersonalWorks = () => {
     return (
         <section id="personalprojects">
-            <Text mt="10" fontSize="4xl" fontWeight="bold" >Personal projects: </Text>
-                <Grid gap='6' templateColumns='repeat(2, 1fr)' mt="10" h="66rem">
+            <Text mt="10" textAlign={["center","start"]} fontSize={["3xl","4xl"]} fontWeight="bold" >Personal projects </Text>
+                <Grid gap='6' templateColumns={["repeat(1, 1fr)","repeat(2, 1fr)"]} mt="10" h={["80rem","66rem"]}>
                     <TeamProjects
                         title="Next City"
                         description="Site Desenvolvido exclusivamente por mim para a minha antiga loja de scripts de fivem e futura cidade no fivem"

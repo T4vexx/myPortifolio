@@ -38,7 +38,7 @@ const Scripts = ({color, title, description, ml, data, fontColor, link}: TeamPro
 
     return (
         <GridItem >
-            <Flex ml={ml} w="43rem" h="35rem" bg={color} color={fontColor} border={`1px solid rgba(0,0,0,0.2)`} justify="center" align="center" borderRadius="15px">
+            <Flex ml={["0",`${ml}`]} w={["100%","43rem"]} h={["32rem","35rem"]} bg={color} color={fontColor} justify="center" align="center" borderRadius="15px">
                 <VStack padding="0 1rem" gap="6" justify="center" align="center">
                     <Flex flexDir="column">
                         <Text fontSize="2xl"><b>{title}</b></Text>
@@ -46,7 +46,7 @@ const Scripts = ({color, title, description, ml, data, fontColor, link}: TeamPro
                         {link && <Link href={link} color='teal.500'>Link do youtube</Link>}
                     </Flex>
                     
-                    <Flex w="40rem">
+                    <Flex w={["22rem","40rem"]}>
                         <Swiper
                             modules={[Navigation,Autoplay]}
                             navigation={true}

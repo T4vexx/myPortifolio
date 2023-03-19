@@ -84,5 +84,24 @@
                 { "png": "tablet10.png", "description": "Serviços - Afazeres" }
             ]
         }
-    }
+    },
+    "devicons": [
+        {"png": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"},
+        {"png": "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"},
+        {"png": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"},
+        {"png": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg"},
+        {"png": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"},
+        {"png": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"},
+        {"png": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"},
+        {"png": "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"},
+        {"png": "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg"},
+        {"png": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg"},
+        {"png": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"},
+        {"png": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg"},
+        {"png": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"},
+        {"png": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/lua/lua-plain-wordmark.svg"},
+        {"png": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gatsby/gatsby-original.svg"},
+        {"png": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"},
+        {"png": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"}
+    ]
 }

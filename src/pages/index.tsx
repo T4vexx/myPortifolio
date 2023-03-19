@@ -22,7 +22,7 @@ const IndexPage: React.FC<PageProps> = () => {
         bg="white"  
         style={{userSelect: "none"}}
         flexDir="column"
-        overflow="hidden"
+        overflowX="hidden"
       > 
         <NavBar />
         <Greetings />
