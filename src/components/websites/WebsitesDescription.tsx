@@ -9,7 +9,7 @@ const WebsitesDescription = () => {
     
     return (
         <Flex w="100vw" flexDir="column" mt={["8rem","8rem"]}>
-            <Container textAlign={["center","start"]} maxW={["26rem","90rem"]}>
+            <Container p={["0 !important","1rem !important"]} textAlign={["center","start"]} maxW={["23rem","90rem"]}>
                 <PersonalWorks />
                 <TeamWorks />
                 <RocketseatWorks />

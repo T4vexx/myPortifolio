@@ -37,7 +37,7 @@ const TeamProjects = ({color, title, description,ml,data,fontColor,tec}: TeamPro
     }
 
     return (
-        <GridItem >
+        <GridItem w={["23rem","43rem"]}>
             <Flex ml={["0",`${ml}`]} w={["100%","43rem"]} h={["25rem","32rem"]} bg={color} color={fontColor} justify="center" align="center" borderRadius="15px">
                 <VStack padding="0 1rem" gap="6" justify="center" align="center">
                     <Flex flexDir="column">

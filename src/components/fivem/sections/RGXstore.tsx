@@ -8,7 +8,7 @@ const RGXStore = () => {
     return (
         <section id="rgxstore">
             <Text mt="14" fontSize="4xl" fontWeight="bold" >RGX Store projects: </Text>
-                <Grid gap='6' templateColumns='repeat(2, 1fr)' mt="10" h="42rem">
+                <Grid gap='6' templateColumns='repeat(2, 1fr)' mt="10" h={["38rem","42rem"]}>
                     <Scripts
                         title="RGX Tablet"
                         description="Script para fivem (GTAv - roleplay), nesse script eu desenvolvi um sistema para polícia no fivem, possui sistemas de prender veiculo, prender/multar jogador, consultar codigo penal, anunciar, e muitas outras funcionalidade - back(Lua) e front(React/ChakraUI)"
